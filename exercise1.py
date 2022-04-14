@@ -1,0 +1,7 @@
+text = input('give me a string: ')
+up = text.capitalize()
+low = text.casefold()
+titleCase = text.title()
+print('Here is your string all lower case: ' + low)
+print('Here is your string all upercase case: ' + up)
+print('Here is your string title case: ' + titleCase)
